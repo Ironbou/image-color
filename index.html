@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar w/ text</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto" id="navBarBoot">
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row justify-content-center main-title">
+            <div id="welcomeA" class="text-center col-11 col-md-8 col-xl-6 ">
+                <!--Bienvenue-->
+            </div>
+        </div>
+        <div class="row mx-auto justify-content-center">
+            <div id="upload" class="col-11 col-md-8 col-xl-6 text-center">
+                <!-- Upload or not -->
+                <input type="file" style="display:none" id="file">
+            </div>
+        </div>
+        <div class="row pt-2 pb-2 text-center bg-secondary preview-zone mx-auto">
+            <!-- Image color and preview -->
+            <div id="colorList" class="col-4">
+                <ul id="foo">
+
+                </ul>
+                <!-- Color -->
+               </div>
+            <div id="divPreview" class="col-8">
+                <!-- Preview -->
+            </div>
+        </div>
+        <div class="row">
+            <h2 class="col-12 text-center">La galerie</h2>
+            <!-- Gallery -->
+            <div id="gallery" class="row">
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer id=bottom>
+
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="src/index.js"></script>
+</body>
+
+</html>
